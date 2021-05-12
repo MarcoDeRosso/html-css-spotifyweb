@@ -114,8 +114,16 @@ footer .col.player i {
     font-size: 30px;
 }
 
-footer .col.player .barra {
-    width: 80%;
+footer .whitebarra {
+    width: 20%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+footer .barra {
+    width: 60%;
     height: 4px;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.2);
