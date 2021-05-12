@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+.row {
+    width: 100%;
+}
+
 
 /* inizio sidebar */
 
@@ -55,38 +59,66 @@ main .content {
     height: 90px;
     background-color: #282828;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* inizio footernav di sinistra */
+
+footer .col {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    flex-wrap: wrap;
 }
 
-footer ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    color: #fff;
-    flex-grow: 1;
-}
-
-footer .player {
-    flex-grow: 2;
-}
-
-footer ul:first-child {
-    flex-basis: 200px;
-}
-
-footer ul:last-child {
-    flex-basis: 200px;
-}
-
-footer ul:first-child li:first-child {
+footer img {
     width: 50px;
     height: 50px;
 }
 
-footer ul:first-child li:first-child img {
+footer h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
     width: 100%;
-    height: auto;
+    padding-top: 15px;
+}
+
+footer span {
+    color: #5b5b5b;
+    font-size: 12px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+footer i {
+    font-size: 16px;
+    color: #5b5b5b;
+}
+
+
+/* inizio footernav centrale */
+
+footer .col.player {
+    height: 45px;
+    justify-content: space-evenly;
+}
+
+footer .col.player i {
+    color: #fff;
+}
+
+#play {
+    font-size: 30px;
+}
+
+footer .col.player hr {
+    display: inline;
+    height: 10px;
+    color: #fff;
+    background-color: #fff;
+    width: 10%;
+    border-radius: 25px;
 }
