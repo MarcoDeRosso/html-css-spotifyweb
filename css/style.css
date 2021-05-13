@@ -27,14 +27,15 @@ main .sidebar {
     height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 
 /* inizio top-sidebar */
 
 .sidebar .top-sidebar {
-    flex-grow: 1;
     padding: 15px;
+    min-height: 650px;
 }
 
 .top-sidebar .logo,
@@ -91,6 +92,12 @@ main .sidebar {
     margin-left: 15px;
 }
 
+.top-sidebar .list {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-y: auto;
+}
+
 .top-sidebar .list a {
     color: #5b5b5b;
     font-size: 16px;
@@ -134,8 +141,8 @@ main .sidebar {
 }
 
 .bottom-sidebar .installa .svg-container {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     vertical-align: middle;
 }
 
