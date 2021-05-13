@@ -236,6 +236,13 @@ nav span a {
 main .content {
     overflow-y: scroll;
     height: 100%;
+    padding-top: 100px;
+}
+
+.content .content-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
 }
 
 
