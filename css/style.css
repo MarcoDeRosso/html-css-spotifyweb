@@ -101,17 +101,58 @@ main .sidebar {
 /* inizio bottom-sidebar */
 
 .sidebar .bottom-sidebar {
-    flex-grow: 1;
-    background-color: green;
     display: flex;
     flex-direction: column-reverse;
+    padding: 15px;
 }
 
-.bottom-sidebar .account,
+.bottom-sidebar .account {
+    border-top: 1px solid #5b5b5b;
+    padding-top: 15px;
+}
+
+.bottom-sidebar .account img {
+    width: 30px;
+    height: auto;
+    background-color: #5b5b5b;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.bottom-sidebar .account span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
 .bottom-sidebar .installa {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.bottom-sidebar .installa .svg-container {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.svg-container .download {
+    width: 100%;
+    height: 100%;
+}
+
+.svg-container .download path {
+    fill: #5b5b5b;
+}
+
+.bottom-sidebar .installa span {
+    color: #5b5b5b;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 15px;
 }
 
 
