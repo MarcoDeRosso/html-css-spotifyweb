@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .row {
     width: 100%;
 }
@@ -20,6 +24,84 @@ a {
 
 main .sidebar {
     background: #000;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* inizio top-sidebar */
+
+.sidebar .top-sidebar {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.top-sidebar .logo,
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.sidebar-menu,
+.playlist {
+    margin-top: 30px;
+}
+
+.sidebar-menu li,
+.top-sidebar .playlist i {
+    margin-top: 15px;
+}
+
+.sidebar-menu img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.sidebar-menu span {
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+
+.playlist .crea-playlist {
+    display: flex;
+    align-items: center;
+}
+
+.top-sidebar .playlist h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.top-sidebar .playlist i {
+    font-size: 50px;
+    color: #5b5b5b;
+}
+
+.top-sidebar .playlist span {
+    font-size: 20px;
+    color: #5b5b5b;
+}
+
+
+/* inizio bottom-sidebar */
+
+.sidebar .bottom-sidebar {
+    flex-grow: 1;
+    background-color: green;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bottom-sidebar .account,
+.bottom-sidebar .installa {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 50px;
 }
 
 
@@ -74,7 +156,7 @@ footer .col {
 }
 
 footer img {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 
