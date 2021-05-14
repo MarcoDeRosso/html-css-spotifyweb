@@ -198,6 +198,7 @@
     
     .sidebar-menu li a:hover,
     .crea-playlist span:hover,
+    .crea-playlist i:hover,
     .list li a:hover {
         color: #fff;
         cursor: pointer;
@@ -428,6 +429,12 @@
     footer .left i {
         font-size: 16px;
         color: #5b5b5b;
+    }
+    
+    .left .col:hover i,
+    .left .col:hover span {
+        color: #fff;
+        cursor: pointer;
     }
     /* inizio footernav centrale */
     
