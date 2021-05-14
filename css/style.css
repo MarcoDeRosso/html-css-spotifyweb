@@ -431,7 +431,7 @@
         color: #5b5b5b;
     }
     
-    .left .col:hover i,
+    .left .col i:hover,
     .left .col:hover span {
         color: #fff;
         cursor: pointer;
