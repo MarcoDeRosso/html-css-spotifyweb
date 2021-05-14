@@ -36,11 +36,11 @@
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        position: relative;
     }
     /* inizio top-sidebar */
     
     .sidebar .top-sidebar {
-        padding: 10px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -64,6 +64,13 @@
     }
     
     .sidebar-menu li,
+    .playlist,
+    .list {
+        padding-left: 10px;
+    }
+    
+    .sidebar-menu li,
+    .playlist,
     .crea-playlist,
     .list,
     .list li {
@@ -86,6 +93,14 @@
         font-size: 14px;
         font-weight: 500;
         color: #5b5b5b;
+    }
+    
+    .sidebar-menu li:first-child {
+        border-left: 2px solid lawngreen;
+    }
+    
+    .sidebar-menu li:first-child a {
+        color: #fff;
     }
     
     .playlist .crea-playlist {
@@ -236,12 +251,12 @@
         border-radius: 30px;
         font-size: 20px;
         padding: 10px 20px;
-        transition: padding 2s linear;
+        transition: padding 1s linear;
         cursor: pointer;
     }
     
     nav span a:hover {
-        padding: 20px 30px;
+        padding: 15px 25px;
     }
     /* inizio sezione album ed immagini */
     
