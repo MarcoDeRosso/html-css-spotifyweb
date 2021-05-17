@@ -361,7 +361,7 @@
         width: 100%;
     }
     
-    .img-container:hover img {
+    .album:hover img {
         filter: opacity(50%);
         cursor: pointer;
     }
@@ -376,7 +376,7 @@
         font-size: 50px;
     }
     
-    .img-container:hover i {
+    .album:hover i {
         display: block;
         cursor: pointer;
     }
