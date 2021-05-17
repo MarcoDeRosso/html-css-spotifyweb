@@ -336,6 +336,7 @@
     .container-albums span {
         color: #5b5b5b;
         font-size: 14px;
+        padding: 10px 5px;
     }
     
     .container-albums .content-row {
