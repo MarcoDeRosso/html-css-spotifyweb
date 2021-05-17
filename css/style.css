@@ -1,5 +1,6 @@
     * {
         font-family: 'Montserrat', sans-serif;
+        color: #5b5b5b;
     }
     
     .app {
@@ -87,7 +88,6 @@
         vertical-align: middle;
         font-size: 14px;
         font-weight: 500;
-        color: #5b5b5b;
     }
     
     .sidebar-menu li:first-child {
@@ -110,12 +110,10 @@
     
     .top-sidebar .playlist i {
         font-size: 30px;
-        color: #5b5b5b;
     }
     
     .top-sidebar .playlist span {
         font-size: 18px;
-        color: #5b5b5b;
         margin-left: 5px;
     }
     
@@ -127,7 +125,6 @@
     }
     
     .top-sidebar .list a {
-        color: #5b5b5b;
         font-size: 14px;
         font-weight: 600;
     }
@@ -184,7 +181,6 @@
     }
     
     .bottom-sidebar .installa span {
-        color: #5b5b5b;
         font-size: 14px;
         vertical-align: middle;
         margin-left: 5px;
@@ -292,7 +288,6 @@
     
     .content-nav ul li a {
         font-size: 14px;
-        color: #5b5b5b;
     }
     
     .content-nav ul li a:hover {
@@ -328,7 +323,6 @@
     }
     
     .container-albums span {
-        color: #5b5b5b;
         font-size: 14px;
         padding: 10px 5px;
     }
@@ -424,7 +418,6 @@
     }
     
     footer span {
-        color: #5b5b5b;
         font-size: 12px;
         width: 100%;
         padding-bottom: 15px;
@@ -432,7 +425,6 @@
     
     footer .left i {
         font-size: 16px;
-        color: #5b5b5b;
     }
     
     .left .col i:hover,
