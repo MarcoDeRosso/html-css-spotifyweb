@@ -1,3 +1,7 @@
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
     .app {
         max-height: 100vh;
     }
@@ -17,16 +21,6 @@
     
     .row {
         width: 100%;
-    }
-    
-    .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    .fl {
-        float: left;
     }
     /* inizio sidebar */
     
@@ -339,6 +333,11 @@
         padding: 10px 5px;
     }
     
+    .content-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .container-albums .content-row {
         width: 100%;
     }
@@ -385,7 +384,6 @@
     @media all and (min-width:576px) and (max-width:768px) {
         .content-row .album {
             width: calc(100% / 4);
-            height: 300px;
         }
     }
     
