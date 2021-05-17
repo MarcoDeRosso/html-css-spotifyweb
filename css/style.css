@@ -404,12 +404,12 @@
         flex-wrap: wrap;
     }
     
-    footer img {
+    .col.left img {
         width: 50px;
         height: auto;
     }
     
-    footer h3 {
+    .col.left h3 {
         color: #fff;
         font-size: 18px;
         font-weight: bold;
@@ -417,18 +417,18 @@
         padding-top: 15px;
     }
     
-    footer span {
+    .col.left span {
         font-size: 12px;
         width: 100%;
         padding-bottom: 15px;
     }
     
-    footer .left i {
+    .col.left i {
         font-size: 16px;
     }
     
-    .left .col i:hover,
-    .left .col:hover span {
+    .col.left i:hover,
+    .col.left:hover span {
         color: #fff;
         cursor: pointer;
     }
@@ -515,12 +515,15 @@
     }
     
     @media only screen and (max-width: 576px) {
-        footer img {
+        .col.left img {
             width: 30px;
             height: auto;
         }
         .col.left i {
             width: 100%;
             padding-left: 5px;
+        }
+        .col.left h3 {
+            font-size: 14px;
         }
     }
