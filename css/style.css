@@ -284,10 +284,10 @@
     .content .content-nav {
         display: flex;
         margin-top: 100px;
+        width: 100%;
     }
     
     .content-nav ul {
-        width: 100%;
         justify-content: center;
     }
     
